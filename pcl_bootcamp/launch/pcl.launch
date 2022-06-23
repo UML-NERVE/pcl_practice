@@ -1,0 +1,16 @@
+<launch>
+       
+        <node pkg="pcl_bootcamp" type="pcl_bootcamp" name="pcl_bootcamp" output="screen">
+            <param name="topic_name" value="/camera/depth/points"/>
+            <param name="output_name" value="output"/>
+            <param name="disTh" value="10"/>
+            <param name="ptColorTh" value="6"/>
+            <param name="regColorTh" value="5"/>
+            <param name="clustersize" value="600"/>
+
+
+
+        </node>
+</launch>
+
+
